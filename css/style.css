@@ -12,9 +12,6 @@ body {
   font-size: 18px;
   font-weight: 500;
   color: hsl(302, 10%, 53%);
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   height: 100%;
 }
 
@@ -101,6 +98,7 @@ body {
 
 .testimonials {
   display: flex;
+  margin-bottom: 5em;
   justify-content: space-between;
 }
 
