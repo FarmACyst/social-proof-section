@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-position: top left, right bottom;
   font-family: 'Spartan', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: hsl(302, 10%, 53%);
   height: 100%;
@@ -28,8 +28,9 @@ body {
 }
 
 .review-desc {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
+  line-height: 1.5;
   display: inline-block;
   margin-left: 2em;
   position: relative;
@@ -43,25 +44,25 @@ body {
 
 .customer-name {
   color: hsl(0, 0%, 100%);
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: .3em;
 }
 
 .customer-detail {
   color: hsl(333, 80%, 67%);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
 .container {
   width: 80%;
-  margin: 6.5em auto 0;
+  margin: 6em auto 0;
 }
 
 .main-content {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 6em;
+  margin-bottom: 4.5em;
 }
 
 .intro {
@@ -122,7 +123,7 @@ body {
 .testimonial-text {
   clear: left;
   color: hsl(300, 24%, 96%);
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5em;
 }
 
@@ -143,7 +144,7 @@ body {
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1080px) {
   .review-desc {
     display: block;
     margin: 0;
@@ -156,13 +157,13 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   body {
     background-image: url("/images/bg-pattern-top-mobile.svg"), url("/images/bg-pattern-bottom-mobile.svg");
   }
 
   .container {
-    width: 90%;
+    width: 85%;
     text-align: center;
   }
 
